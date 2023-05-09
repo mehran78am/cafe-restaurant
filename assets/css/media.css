@@ -1,0 +1,658 @@
+@media (max-width: 1169.98px) {
+  /*header */
+  .header {
+    min-height: 630px;
+  }
+  .header-section-btn {
+    display: none;
+  }
+  .close {
+    display: block;
+  }
+  .navbar {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    padding: 30px 10px;
+    background-color: #fff;
+  }
+  .list {
+    display: block;
+  }
+  .list-item {
+    margin: 10px 0;
+  }
+  .list-link {
+    color: #515151 !important;
+  }
+  .header-top {
+    padding: 0;
+    padding-top: 80px;
+    border: 0;
+  }
+  .header-bottom {
+    margin: 90px 0;
+  }
+  .bars {
+    display: block;
+  }
+  .logo {
+    width: 200px;
+    height: 60px;
+  }
+  /*about */
+  .about {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about-left,
+  .about-right {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .about-right {
+    margin: 30px auto 50px auto;
+  }
+  .about-left {
+    padding: 0 140px 0 90px;
+    margin-top: 70px;
+  }
+  .about-text-item {
+    padding-left: 100px;
+  }
+  .about-video {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+  }
+  .video-section {
+    width: 480px;
+    height: 480px;
+    right: -15%;
+    top: 10%;
+  }
+  /*services */
+  .services {
+    flex-direction: column;
+    background-attachment: scroll;
+  }
+  .service {
+    width: 50%;
+    margin: 40px 0;
+  }
+  /*popular*/
+  .popular {
+    padding: 30px 0;
+  }
+  .popular-content {
+    padding: 0;
+    margin: 15px 0 0 0;
+    flex-direction: column;
+  }
+  .popular-card {
+    width: 67%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .price {
+    left: 10%;
+  }
+  .popular-description {
+    width: 80%;
+  }
+  /*menu */
+  .menu {
+    padding: 80px 15px 20px 15px;
+  }
+  .menu-content {
+    position: static;
+    margin: 40px 20px 20px 0;
+  }
+  .menu-img {
+    display: block;
+    width: 738px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .menu-left {
+    position: static;
+    width: 738px;
+    min-height: 300px;
+    margin: 20px auto;
+  }
+  .table {
+    margin-top: 15px;
+  }
+  /*chef  */
+  .chefs {
+    padding: 50px 10px 10px 20px;
+  }
+  .chef {
+    width: 738px;
+    flex-direction: column;
+    margin: 0px auto;
+    margin-top: 20px;
+  }
+  .chef-img {
+    width: 80%;
+    height: 600px;
+    margin: 20px auto 10px auto;
+  }
+  .chef-content {
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px 20px;
+    order: 10;
+  }
+  .chef-title {
+    margin: 0 0 20px 0;
+  }
+  .signature {
+    text-align: center;
+    margin: 15px 0 0 0;
+  }
+  /*reserve*/
+  .reserve {
+    flex-direction: column;
+  }
+  .reserve-img {
+    width: 100%;
+    height: 550px;
+  }
+  .reserve-right {
+    order: 10;
+    width: 100%;
+  }
+  .reserve-right .title,
+  .reserve-right .text-title,
+  .form {
+    width: 50%;
+    margin: 0 auto 0 90px;
+  }
+  .form {
+    margin-top: 20px;
+  }
+  /*cards */
+  .cards {
+    padding: 60px 0 30px 0;
+  }
+  .cards-content {
+    margin-top: 30px;
+  }
+  .card {
+    width: calc(calc(100% / 2) - 20px);
+    height: 400px;
+  }
+  /*comment */
+  .comment {
+    background-attachment: scroll;
+    min-height: 513px;
+  }
+  /*article */
+  .article {
+    padding: 40px 50px;
+  }
+  .article-content {
+    flex-direction: column;
+    margin: 10px auto;
+  }
+  .article-item {
+    margin: 10px auto;
+    width: 80%;
+  }
+  .article-link-img {
+    width: 738px;
+  }
+  .article-title,
+  .date {
+    margin-right: 50px;
+  }
+  /*contract */
+  .contract {
+    min-height: 700px;
+  }
+  .contract-text {
+    width: 65%;
+  }
+  .btn-contract {
+    padding: 10px 70px;
+  }
+  /*footer */
+  .footer-social {
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+  }
+  .copy {
+    width: 100%;
+    text-align: center;
+    padding: 4px 0;
+  }
+  .social {
+    padding: 4px 0;
+  }
+}
+@media (max-width: 991.98px) {
+  /*header */
+  .header {
+    min-height: 600px;
+  }
+  .header-top {
+    padding: 80px 90px 0 90px;
+    justify-content: space-between;
+  }
+  .header-bottom {
+    margin: 90px 0;
+  }
+  .btn-bars {
+    font-size: 2.6rem;
+  }
+  /*about */
+  .about-left {
+    width: 95%;
+    margin: 60px auto 0 auto;
+    padding: 0 120px 0 40px;
+  }
+  /*popular*/
+  .popular-card {
+    width: 85%;
+  }
+  /*menu */
+  .menu {
+    padding: 80px 0 20px 0;
+  }
+  .menu-content {
+    margin: 40px 10px 10px 10px;
+  }
+  .menu-left {
+    padding: 20px 80px;
+  }
+  /*chef */
+  .chef {
+    width: 90%;
+  }
+  /*reserve*/
+  .reserve-right .title,
+  .reserve-right .text-title,
+  .form {
+    width: 70%;
+    margin: 0 auto 0 90px;
+  }
+  .form {
+    margin-top: 30px;
+  }
+  .form input {
+    padding: 6px;
+  }
+  /*cards */
+  .cards-content {
+    margin-top: 40px;
+  }
+  .card {
+    height: 445px;
+  }
+  /*article */
+  .article {
+    padding: 40px 20px;
+  }
+  .article-content {
+    margin: 0 auto;
+  }
+  .article-item,
+  .article-link-img {
+    width: 100%;
+  }
+}
+@media (max-width: 767.98px) {
+  /*header */
+
+  .header-top {
+    padding: 30px 70px 0 70px;
+    justify-content: space-around;
+  }
+  .header-bottom {
+    margin: 120px 0;
+  }
+  .header-text {
+    display: none;
+  }
+  .header-brand {
+    margin: 8px 0;
+  }
+  .logo {
+    width: 160px;
+    height: 32px;
+  }
+  .btn-bars {
+    padding: 6px 11px;
+  }
+  /*about */
+  .about-left {
+    padding: 0 50px 0 40px;
+    margin-top: 30px;
+  }
+  .about-video {
+    width: 290px;
+    height: 290px;
+  }
+  .video-section {
+    width: 300px;
+    height: 300px;
+    right: -10%;
+    top: 7%;
+  }
+  .about-text-item {
+    padding-left: 20px;
+  }
+  /*services */
+  .services {
+    padding-top: 30px;
+  }
+  .service {
+    width: 80%;
+    margin: 20px 0;
+  }
+  /*popular*/
+  .popular-card {
+    width: 80%;
+  }
+  .price {
+    left: 0;
+  }
+  .popular-description,
+  .popular-text {
+    width: 85%;
+  }
+  /*menu */
+  .menu-img {
+    width: 438px;
+    height: 265px;
+  }
+  .menu-left {
+    width: 438px;
+    padding: 17px 6px 10px 6px;
+    min-height: 290px;
+  }
+  /*chef */
+  .chefs {
+    padding-bottom: 50px;
+  }
+  .chef {
+    width: 80%;
+  }
+  .chef-img {
+    width: 100%;
+    height: 420px;
+    margin: 0;
+  }
+  .chef-content {
+    width: 100%;
+  }
+  .signature {
+    text-align: left;
+  }
+  /*reserve*/
+  .reserve-img {
+    height: 400px;
+  }
+  .reserve-right .title,
+  .reserve-right .text-title,
+  .form {
+    width: 90%;
+  }
+  /*cards */
+  .card {
+    height: 150px;
+  }
+  /*comment */
+  .comment-content {
+    width: 90%;
+  }
+  .comment-text {
+    width: 100%;
+  }
+  .com {
+    font-size: 2.8rem;
+    margin-top: 15px;
+  }
+  /*article */
+  .article-item {
+    width: 95%;
+  }
+  .article-link-img {
+    width: 100%;
+  }
+  .article-title,
+  .date {
+    margin-right: 40px;
+  }
+  /*contract */
+  .contract-text {
+    width: 90%;
+  }
+  /*footer */
+  .footer-contact {
+    padding: 30px 0;
+    display: block;
+  }
+  .contact {
+    margin: 0 auto;
+    width: 70%;
+  }
+}
+@media (max-width: 575.98px) {
+  /*header */
+  .header-top {
+    justify-content: space-between;
+    padding: 25px 15px;
+  }
+  /*about */
+  .about-left {
+    width: 100%;
+    padding: 0 13px 0 0;
+  }
+
+  /*popular*/
+  .popular-card {
+    width: 90%;
+  }
+  .popular-header {
+    font-size: 1.9rem;
+  }
+  .popular-description,
+  .popular-text,
+  .price span {
+    font-size: 1.28rem;
+  }
+  /*menu */
+  .menu-img,
+  .menu-left {
+    width: 95%;
+  }
+  .menu-left {
+    min-height: 260px;
+  }
+  .table-head th {
+    padding: 4px;
+    font-size: 1.5rem;
+  }
+  .table-row td {
+    font-size: 1.3rem;
+    padding: 5.5px;
+  }
+  /*chef */
+  .chef {
+    width: 95%;
+  }
+  /*reserve*/
+
+  .reserve-img {
+    height: 380px;
+  }
+  .reserve-right {
+    padding: 30px 15px;
+    height: 450px;
+  }
+  .reserve-right .title,
+  .reserve-right .text-title,
+  .form {
+    width: 100%;
+    margin: 0;
+  }
+  .form {
+    margin-top: 20px;
+  }
+  textarea {
+    height: 90px;
+  }
+  /*card */
+  .card-title {
+    top: 30%;
+    right: 20%;
+    left: 20%;
+    bottom: 30%;
+  }
+  /*article */
+  .article-content {
+    width: 100%;
+  }
+  /*contract */
+  .contract {
+    padding: 0 20px;
+  }
+  .contract-text {
+    width: 80%;
+    font-size: 1.6rem;
+  }
+  .contract-title {
+    width: 100%;
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 419.98px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .text-title {
+    font-size: 3rem;
+  }
+  /*header */
+  .header {
+    min-height: 500px;
+  }
+  .header-bottom {
+    margin: 50px 0;
+  }
+  .logo {
+    width: 140px;
+  }
+  .btn-bars {
+    padding: 5px 10px;
+  }
+  .header-title {
+    font-size: 1.6rem;
+  }
+  .header-brand {
+    font-size: 3.2rem;
+  }
+  .btn-more {
+    padding: 5px 25px;
+  }
+  /*about */
+  .about-video {
+    width: 260px;
+    height: 260px;
+  }
+  .video-section {
+    width: 270px;
+    height: 270px;
+    right: -10%;
+    top: 7%;
+  }
+  .about-text {
+    font-size: 1.3rem;
+  }
+  /*services */
+  .services {
+    padding: 0;
+  }
+  .service {
+    width: 100%;
+  }
+  /*popular*/
+  .popular-card {
+    width: 97%;
+  }
+  .popular-header {
+    font-size: 1.8rem;
+  }
+  .popular-description,
+  .popular-text {
+    width: 95%;
+    font-size: 1.22rem;
+  }
+  .price span {
+    font-size: 1.22rem;
+  }
+  /*menu */
+  .menu-img,
+  .menu-left {
+    width: 98%;
+  }
+  .menu-left .title,
+  .table-head th {
+    font-size: 1.4rem;
+  }
+  .table-row td {
+    font-size: 1.2rem;
+  }
+  /*chef  */
+  .chef {
+    width: 100%;
+  }
+  .chef-img {
+    height: 360px;
+  }
+  /*card */
+  .card-title {
+    right: 13%;
+    left: 13%;
+    font-size: 1.3rem;
+  }
+  /*comment */
+  .comment-content {
+    width: 100%;
+  }
+  .comment-text {
+    font-size: 1.3rem;
+  }
+  .com,
+  .comment-title {
+    font-size: 2rem;
+  }
+  /*article */
+  .article-title {
+    font-size: 1.4rem;
+  }
+  /*contract */
+  .contract-title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .contract-text {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .btn-contract {
+    padding: 7px 40px;
+  }
+  /*footer */
+  .copy {
+    font-size: 1.2rem;
+  }
+}
